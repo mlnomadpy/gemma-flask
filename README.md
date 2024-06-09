@@ -7,7 +7,8 @@ pip install flask torch transformers bitsandbytes accelerate
 
 run this in your terminal
 
-export CUDA_VISIBLE_DEVICES="7" # this is your gpu id get it either from nvidia-smi or 
+export CUDA_VISIBLE_DEVICES="7" # this is your gpu id get it either from nvidia-smi or gpustat
+
 python app.py --strategy gpu # you can set this to cpu gpu 8bit 4bit flash depending on your needs chack the talk
 
 communicate with it from the terminal using
