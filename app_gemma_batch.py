@@ -99,7 +99,7 @@ def complete():
     # we are not saving this in any database
     # another strategy will be to sub to your db 
     # push the answer to the db whenever your model finished processing the text
-    # one their is a change in the databse it will send the response to the user
+    # once there is a change in the database it will send the response to the user
     # check firebase real-time database 
     # you will use
         # chat_id
